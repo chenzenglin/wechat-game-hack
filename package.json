@@ -1,11 +1,16 @@
 {
   "name": "wechat-game-hack",
   "version": "1.0.0",
+  "description": "微信公众平台登录",
   "main": "dist/index.js",
   "scripts": {
     "start": "babel-node ./run.js",
     "prepublishOnly": "babel src -d dist --copy-files"
   },
+  "keywords": [
+    "微信公众平台",
+    "微信小游戏"
+  ],
   "author": "zengzenglin",
   "license": "ISC",
   "dependencies": {
@@ -17,5 +22,13 @@
     "babel-plugin-add-module-exports": "^1.0.0",
     "babel-plugin-transform-decorators-legacy": "^1.3.5",
     "babel-preset-env": "^1.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenzenglin/wechat-game-hack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chenzenglin/wechat-game-hack/issues"
+  },
+  "homepage": "https://github.com/chenzenglin/wechat-game-hack#readme"
 }
