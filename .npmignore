@@ -1,0 +1,9 @@
+.vscode
+src
+run.js
+qrcode-login.png
+qrcode-safe.png
+verifycode.png
+package-lock.json
+cache
+node_modules

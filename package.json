@@ -1,0 +1,21 @@
+{
+  "name": "wechat-game-hack",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "babel-node ./run.js",
+    "prepublishOnly": "babel src -d dist --copy-files"
+  },
+  "author": "zengzenglin",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.88.0",
+    "tough-cookie-filestore": "0.0.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-add-module-exports": "^1.0.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-preset-env": "^1.7.0"
+  }
+}
